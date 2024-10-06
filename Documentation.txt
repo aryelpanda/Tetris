@@ -1,0 +1,22 @@
+Explanation about Tetris code
+
+The grid is represented by an matrix array of zeros , as where each place is occupied the zero is changed for the number represented for each block.
+We have nested loops that draw the grid , and the squares inside it . 
+To Rotate each new block , we imagine a 3 by 3 box with the blocks inside it , and we only save  in an array the index of the  column and row of the rotated block . 
+
+We will use inheritance to make a parent block class , and then 7 child classes that have the same attributes for all the blocks . 
+
+collation detection :we get the position of the block , we check the grid , if the grid is empty has zeros 
+we can still move  if we encounter a position that is occupied (not equals zero) we undo the move and lock the block in place we do this for moving right left or down .
+-
+check completed row : we check all the rows from the bottom to the top ,if the row is full if it is we move all the rows above it one row down
+-
+-
+game over: we check if the new block fits in the grid , if not there is no more room and we print a game over and reset the game , clear the board 
+-
+-
+-
+
+Score :
+in game files we create a method to update the score , and with a switch case we determine what row or multiple cleared or player pressed down on key, we place it on the lock method and in handling input . we also reset the score to 0 in the reset method
+Printing the score: on screen
