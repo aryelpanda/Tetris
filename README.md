@@ -1,31 +1,74 @@
-# Raylib-CPP-Starter-Template-for-VSCODE-V2
-Raylib C++ Starter Template for Visual Studio Code on Windows.
-This demo project contains a bouncing ball raylib example program.
-It works with raylib version 5.0. Tested on both Windows 10 and Windows 11.
+# Tetris Game in C++ using Raylib
 
-[Watch the Demo Video on YouTube](https://www.youtube.com/watch?v=L8w6mtDBDak)
 
-# How to use this template
-1. Double click on the main.code-workspace file. This will open the template in VS Code.
-2. From the Explorer Window of VS Code navigate to the src folder and double click on the main.cpp file.
-3. Press F5 on the keyboard to compile and run the program.
 
-# What's changed
-The template now uses folders for better organizion of the files. So, all the source code now lives in the src folder.
+## Overview
 
-# Video Tutorial
 
-<p align="center">
-  <img src="preview.jpg" alt="" width="800">
-</p>
 
-<p align="center">
-🎥 <a href="https://www.youtube.com/watch?v=PaAcVk5jUd8">Video Tutorial on YouTube</a>
-</p>
+This project is a classic Tetris game developed using C++ and the Raylib library. The game incorporates Object-Oriented Programming (OOP) principles and creative programming techniques to deliver an engaging and interactive experience.
 
-<br>
-<br>
-<p align="center">
-| 📺 <a href="https://www.youtube.com/channel/UC3ivOTE5EgpmF2DHLBmWIWg">My YouTube Channel</a>
-| 🌍 <a href="http://www.educ8s.tv">My Website</a> | <br>
-</p>
+
+
+## Features
+
+
+
+- **Classic Tetris Gameplay**: Play the timeless game of Tetris with standard rules and mechanics.
+
+- **Dynamic Game Board**: A grid-based game board that tracks and manages the falling tetrominoes.
+
+- **Tetromino Shapes**: Various shapes of tetrominoes that rotate and fit together to clear lines.
+
+- **Score System**: A scoring mechanism that rewards players for clearing lines.
+
+- **Game Over State**: Logic to handle game over scenarios when the tetrominoes stack to the top.
+
+
+
+## OOP Utilization
+
+
+
+The Tetris game is designed using OOP principles, allowing for better organization, scalability, and code reusability. Key components include:
+
+
+
+- **Tetromino Class**: This class represents each tetromino shape. It encapsulates properties such as the shape's coordinates, color, and rotation methods, making it easier to manage each tetromino's behavior.
+
+
+
+- **Game Board Class**: Responsible for managing the game grid, this class handles the placement of tetrominoes, line clearing, and game state checks. The separation of the game board logic enhances code readability and maintenance.
+
+
+
+- **Game Controller Class**: This class manages user inputs, updates the game state, and controls the game loop. It coordinates between the Tetromino and Game Board classes, ensuring smooth gameplay.
+
+
+
+## Creative Programming Techniques
+
+
+
+Creative programming techniques were employed to enhance the gaming experience:
+
+
+
+- **Dynamic Rendering**: The use of Raylib's graphics functions to dynamically render the game board and tetrominoes provides smooth animations and visual feedback.
+
+
+
+- **Collision Detection**: Implementing algorithms to detect collisions between tetrominoes and the game board edges or other tetrominoes is crucial for gameplay accuracy.
+
+
+
+- **Line Clearing Animation**: A unique animation effect is implemented when lines are cleared, enhancing player engagement and satisfaction.
+
+
+
+## Conclusion
+
+
+
+This Tetris project demonstrates the application of OOP principles and creative programming techniques to create a functional and enjoyable game. By leveraging C++ and Raylib, the project showcases both programming skills and game development knowledge.
+
